@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal">
+    <ImageView
+        android:src="@drawable/logogrande"
+        android:layout_width="match_parent"
+        android:layout_height="66.5dp"
+        android:id="@+id/imageView1" />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/space1"
+        android:layout_marginBottom="100.0dp" />
+    <TextView
+        android:text="Ahora, escoge la AFP con la que deseas Estimar tu Pensión"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="332.5dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView1"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="normal"
+        android:typeface="sans"
+        android:gravity="center_horizontal" />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/space2"
+        android:layout_marginBottom="10.0dp" />
+    <RadioGroup
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="202.5dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/radioAFP"
+        android:layout_gravity="center_horizontal">
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="HABITAT"
+            android:id="@+id/radioHAB" />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Integra"
+            android:id="@+id/radioINT" />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PRIMA"
+            android:id="@+id/radioPRIMA" />
+        <RadioButton
+            android:text="Profuturo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioPRO" />
+    </RadioGroup>
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/space2"
+        android:layout_marginBottom="20.0dp" />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/space2"
+        android:layout_marginBottom="10.0dp" />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/space2"
+        android:layout_marginBottom="20.0dp" />
+    <Button
+        android:text="Siguiente"
+        android:layout_width="150.0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/button3"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@android:color/white" />
+</LinearLayout>

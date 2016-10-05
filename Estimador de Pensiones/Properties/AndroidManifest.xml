@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="Estimador.Estimador" android:versionCode="5" android:versionName="5.2" android:installLocation="preferExternal">
+	<uses-sdk android:minSdkVersion="16" />
+	<application android:label="Estimador de Pensiones" android:icon="@drawable/Icon" android:theme="@style/Theme.Custom1"></application>
+</manifest>

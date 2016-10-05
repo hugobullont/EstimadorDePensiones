@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal">
+    <ImageView
+        android:src="@drawable/logogrande"
+        android:layout_width="match_parent"
+        android:layout_height="66.5dp"
+        android:id="@+id/imageView1" />
+    <TextView
+        android:text="Estos son sus resultados:"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="332.5dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView1"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="normal"
+        android:typeface="sans"
+        android:gravity="center_horizontal" />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/space1"
+        android:layout_marginBottom="15.0dp" />
+    <TextView
+        android:text="      Con un ingreso bruto de:"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:textStyle="bold" />
+    <TextView
+        android:text="IngresoBruto"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="335.0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/viewIngreso"
+        android:gravity="end" />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/space1"
+        android:layout_marginBottom="15.0dp" />
+    <TextView
+        android:text="      En la AFP:"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:textStyle="bold" />
+    <TextView
+        android:text="AFP"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="335.0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/viewAFP"
+        android:gravity="end" />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/space1"
+        android:layout_marginBottom="15.0dp" />
+    <TextView
+        android:text="      Pensión Mensual:"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:textStyle="bold" />
+    <TextView
+        android:text="Pension"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="335.0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/viewPension"
+        android:gravity="end" />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/space1"
+        android:layout_marginBottom="15.0dp" />
+    <TextView
+        android:text="      Fondo Acumulado:"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:textStyle="bold" />
+    <TextView
+        android:text="Fondo"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="335.0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/viewFondo"
+        android:gravity="end" />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/space1"
+        android:layout_marginBottom="15.0dp" />
+    <TextView
+        android:text="      Valor Actual Neto:"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:textStyle="bold" />
+    <TextView
+        android:text="VAN"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="335.0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/viewVAN"
+        android:gravity="end" />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/space1"
+        android:layout_marginBottom="15.0dp" />
+    <TextView
+        android:text="      TREA:"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:textStyle="bold" />
+    <TextView
+        android:text="TREA"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="335.0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/viewTREA"
+        android:gravity="end" />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/space2"
+        android:layout_marginBottom="10.0dp" />
+    <Button
+        android:text="Finalizar"
+        android:layout_width="150.0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonFin"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@android:color/white" />
+</LinearLayout>

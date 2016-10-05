@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minWidth="25px"
+    android:minHeight="25px"
+    android:animateLayoutChanges="true"
+    android:animationCache="true"
+    android:gravity="center_horizontal">
+    <ImageView
+        android:src="@drawable/logogrande"
+        android:layout_width="match_parent"
+        android:layout_height="66.5dp"
+        android:id="@+id/imageView1" />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/space1"
+        android:layout_marginBottom="30.0dp" />
+    <TextView
+        android:text="Para empezar con el cálculo, Necesitamos tu Ingreso Bruto Mensual"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="332.5dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView1"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="normal"
+        android:typeface="sans"
+        android:gravity="center_horizontal" />
+    <EditText xmlns:tools="http://schemas.android.com/tools"
+        android:inputType="number"
+        android:layout_width="332.5dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/editIngresoBruto"
+        android:layout_gravity="center_horizontal"
+        android:hint="Ingreso Bruto Mensual"
+        android:numeric="integer" />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/space2"
+        android:layout_marginBottom="20.0dp" />
+    <TextView
+        android:text="tu Fecha de Nacimiento"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="332.5dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView1"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="normal"
+        android:typeface="sans"
+        android:gravity="center_horizontal" />
+    <EditText
+        android:inputType="date"
+        android:layout_width="332.5dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/editFechaNac"
+        android:layout_gravity="center_horizontal"
+        android:hint="mm/dd/aaaa" />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/space2"
+        android:layout_marginBottom="20.0dp" />
+    <TextView
+        android:text="y tu Sexo"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="332.5dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView1"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="normal"
+        android:typeface="sans"
+        android:gravity="center_horizontal" />
+    <RadioGroup
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="134.5dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/RadSex"
+        android:layout_marginLeft="0.0dp"
+        android:layout_marginRight="0.0dp"
+        android:layout_gravity="center_horizontal">
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="Hombre"
+            android:id="@+id/radioButtonMas" />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mujer"
+            android:id="@+id/radioButtonFem" />
+    </RadioGroup>
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/space2"
+        android:layout_marginBottom="10.0dp" />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/space2"
+        android:layout_marginBottom="20.0dp" />
+    <Button
+        android:text="Siguiente"
+        android:layout_width="150.0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/button2"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@android:color/white" />
+</LinearLayout>

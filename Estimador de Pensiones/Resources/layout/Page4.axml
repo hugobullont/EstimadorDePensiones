@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal">
+    <ImageView
+        android:src="@drawable/logogrande"
+        android:layout_width="match_parent"
+        android:layout_height="66.5dp"
+        android:id="@+id/imageView1" />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/space1"
+        android:layout_marginBottom="30.0dp" />
+    <TextView
+        android:text="Para terminar, escoge tu Rentabilidad"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="332.5dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView1"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="normal"
+        android:typeface="sans"
+        android:gravity="center_horizontal" />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/space2"
+        android:layout_marginBottom="20.0dp" />
+    <RadioGroup
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="202.5dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/radio60"
+        android:layout_gravity="center_horizontal">
+        <TextView
+            android:text="Hasta los 60 años:"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/textView1"
+            android:textStyle="normal"
+            android:typeface="sans"
+            android:gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="Fondo 0"
+            android:id="@+id/radio60F0" />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fondo 1"
+            android:id="@+id/radio60F1" />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fondo 2"
+            android:id="@+id/radio60F2" />
+        <RadioButton
+            android:text="Fondo 3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/radio60F3" />
+    </RadioGroup>
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/space2"
+        android:layout_marginBottom="10.0dp" />
+    <RadioGroup
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="202.5dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/radio65"
+        android:layout_gravity="center_horizontal">
+        <TextView
+            android:text="Desde los 61 a los 65:"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/textView1"
+            android:textStyle="normal"
+            android:typeface="sans"
+            android:gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="Fondo 0"
+            android:id="@+id/radio65F0" />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fondo 1"
+            android:id="@+id/radio65F1" />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fondo 2"
+            android:id="@+id/radio65F2" />
+    </RadioGroup>
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/space2"
+        android:layout_marginBottom="20.0dp" />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/space2"
+        android:layout_marginBottom="10.0dp" />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/space2"
+        android:layout_marginBottom="20.0dp" />
+    <Button
+        android:text="Calcular"
+        android:layout_width="150.0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/button4"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@android:color/white" />
+</LinearLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <color name="theme_material_light_noactionbar_background">#ffefeff4</color><style name="Theme.Custom" parent="@android:style/Theme.DeviceDefault">
+    <item name="android:colorButtonNormal">#ff1a2341</item>
+    <item name="android:textColorPrimary">#ffffffff</item>
+    <item name="android:textColorSecondary">#fffcfcfe</item>
+  </style>
+<style name="Theme.Custom1" parent="@android:style/Theme.Material.Light.NoActionBar">
+  <item name="android:colorButtonNormal">#ff001e41</item>
+  <item name="android:colorBackground">@color/theme_material_light_noactionbar_background</item>
+  <item name="android:windowBackground">?android:attr/colorBackground</item>
+  <item name="android:textColorPrimary">#ff000000</item><item name="android:textColorSecondary">?android:attr/colorButtonNormal</item><item name="android:colorPrimary">?android:attr/colorButtonNormal</item><item name="android:colorPrimaryDark">#ff3f3f3f</item><item name="android:colorAccent">#ffa0c5de</item></style>
+</resources>
